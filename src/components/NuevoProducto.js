@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 // Actions de redux
 import { crearNuevoProductoAction } from '../actions/productoActions';
 
 const NuevoProducto = () => {
+  const history = useNavigate();
 
   // State del componente
   const [nombre, guardarNombre] = useState('');
@@ -37,6 +39,9 @@ const NuevoProducto = () => {
       nombre,
       precio
     });
+
+    // Redireccionar
+    history('/');
   }
 
   return (

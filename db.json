@@ -39,6 +39,26 @@
       "nombre": "Rib Eye",
       "precio": 300,
       "id": 8
+    },
+    {
+      "nombre": "Swag",
+      "precio": 200,
+      "id": 9
+    },
+    {
+      "nombre": "Otro producto",
+      "precio": 12,
+      "id": 10
+    },
+    {
+      "nombre": "Producto",
+      "precio": 239,
+      "id": 11
+    },
+    {
+      "nombre": "New Product",
+      "precio": 29,
+      "id": 12
     }
   ]
 }
